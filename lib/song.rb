@@ -14,6 +14,7 @@ class Song
 
   def artist
     @artist
+    @artist.songs << self
     binding.pry
   end
 
